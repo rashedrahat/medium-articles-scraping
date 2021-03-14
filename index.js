@@ -8,7 +8,7 @@ const helperFunctions = require('./helper');
     try {
         const userAgent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36';
         const browser = await puppeteer.launch({
-            headless: true
+            headless: false
         });
         const page = await browser.newPage();
         const initialTargetedURL = 'https://medium.com/';
