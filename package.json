@@ -1,0 +1,14 @@
+{
+  "name": "medium-articles-scraping",
+  "version": "1.0.0",
+  "description": "Scrap articles' name, author, published time, summary, image and domain icon from medium.com website's Home page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rashed Ahmed Rahat",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^8.0.0"
+  }
+}
